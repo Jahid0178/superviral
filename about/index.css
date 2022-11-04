@@ -94,10 +94,10 @@ section {
   border-radius: 5px;
 }
 
-.history-container-content .history-year {
+/* .history-container-content .history-year {
   background-color: #341662;
   color: #fff;
-}
+} */
 
 /* History Section End Here */
 
@@ -133,3 +133,14 @@ section {
 }
 
 /* Focus Section End Here */
+
+/* Media Query */
+@media only screen and (max-width: 688px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .achievement-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
