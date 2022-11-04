@@ -136,6 +136,10 @@ section {
 
 /* Media Query */
 @media only screen and (max-width: 688px) {
+  .heading-section h2 {
+    font-size: 2rem;
+  }
+
   .contact-container {
     grid-template-columns: 1fr;
   }
