@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit',
+    sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background: #0081f1;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-white:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btn-black {
+  background-color: #000;
+}
+
+.btn-section {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.view-btn {
+  color: rgb(177, 177, 177);
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.view-btn svg {
+  fill: rgb(177, 177, 177);
+}
+
+.inner-section {
+  padding: 1rem 2rem;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.inner-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+#menu {
+  display: none;
+}
+
+#person {
+  display: none;
+}
+
+/* Navigation Section Start Here */
+.header-sec {
+  background: #fff;
+  padding: 10px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-ul li a:hover {
+  text-decoration: underline;
+}
+
+.acc-btn {
+  border: 1px solid #000;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-nav-ul li {
+  display: inline-block;
+}
+
+/* Navigation Section End Here */
+
+/* Display Section Start Here */
+.display-section {
+  padding: 10px 0;
+}
+
+.display-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.display-container>div {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.display-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.display-content img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.display-info-content h1 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.display-info-content .update-stats {
+  background: #f09e00;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+
+}
+
+.display-info-content .role {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 8px;
+  background: #0076e0;
+  color: #fff;
+  border-radius: 0 5px 5px 5px;
+  text-transform: uppercase;
+}
+
+.display-rating {
+  text-align: center;
+  background: #fff;
+}
+
+.display-rating h2 {
+  font-size: 50px;
+}
+
+.display-rating h3 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+/* Display Section End Here */
+
+/* Social status start here */
+
+.status-btn-grp {
+  text-align: center;
+}
+
+#city,
+#profile {
+  margin: 1rem 0;
+}
+
+.status-table {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.status-table-body tr:hover {
+  background: #DDB100;
+  color: #000;
+  border-radius: 10px;
+}
+
+.status-table-body tr td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
+}
+
+/* Social status end here */
+
+/* History Section Start Here */
+.order-history-section {
+  padding: 10px 0;
+}
+
+.history-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.history-container {
+  padding: 10px;
+}
+
+.history-stats {
+  color: #ccc;
+}
+
+.history-stats h2 {
+  font-size: 2.5rem;
+}
+
+.delivered-sec>p {
+  color: #30af02;
+}
+
+.btn-rounded {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* History Section End Here */
+
+/* Auto likes section start here */
+.auto-likes-section {
+  padding: 10px 0;
+}
+
+.auto-likes-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: -5px 9px 16px -4px rgba(0, 0, 0, 0.1);
+}
+
+.auto-likes-details {
+  display: flex;
+  gap: 10px;
+}
+
+.auto-likes-details img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.auto-likes-details .tag {
+  color: rgb(131, 131, 131);
+  font-weight: 200;
+}
+
+.auto-likes-desc p {
+  color: #f09e00;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #000;
+  color: #fff;
+}
+
+table th,
+td {
+  padding: 10px;
+}
+
+/* Auto likes section end here */
+
+/* Competitors section start here */
+.competitors-body {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.competitors-body img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+
+.competitors-desc {
+  width: 100%;
+}
+
+.competitors-desc p {
+  background: #f09e00;
+  padding: 5px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+/* Competitors section end here */
+
+/* Responsive */
+@media only screen and (max-width: 992px) {
+  #menu {
+    display: block;
+  }
+
+  #person {
+    display: block;
+  }
+
+  .nav-ul {
+    display: none;
+    background: #fff;
+  }
+
+  .nav-ul.show {
+    display: block;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .nav-ul li {
+    width: 100%;
+    margin: 30px 45px;
+  }
+
+  .display-container {
+    grid-template-columns: 1fr;
+  }
+
+  .display-container>div {
+    padding: 20px;
+  }
+
+  .history-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+
+  .display-info-content .update-stats,
+  .display-info-content .role {
+    font-size: 0.9rem;
+  }
+
+  .status-table {
+    font-size: 1rem;
+  }
+}

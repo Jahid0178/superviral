@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit',
+    sans-serif;
+}
+
+/* body {
+  background: #f2f2f2;
+} */
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+.title-section {
+  text-align: center;
+}
+
+.title-section h2 {
+  margin-bottom: 1rem;
+}
+
+.heading-section {
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.heading-section h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+/* Contact section start here */
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Contact section end here */
+
+/* Story Section Start Here */
+.story-section {
+  background: #f7f7f7;
+}
+
+.story-content h2,
+.story-content p {
+  margin-bottom: 1rem;
+}
+
+/* Story Section End Here */
+
+/* History Section Start Here */
+.history-section {
+  background: #f7f7f7;
+}
+
+.history-content h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.history-container {
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.history-container-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background: #fff;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.history-container-content .history-year {
+  background-color: #341662;
+  color: #fff;
+}
+
+/* History Section End Here */
+
+/* Achievement Section Start Here */
+
+.achievement-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.achievement-container>div {
+  background: #f7f7f7;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.achievement-container>div h3 {
+  color: #7b36e2;
+}
+
+/* Achievement Section End Here */
+
+/* Focus Section Start Here */
+
+.focus-section {
+  background: #f7f7f7;
+}
+
+.focus-content p {
+  margin-bottom: 1rem;
+}
+
+/* Focus Section End Here */
